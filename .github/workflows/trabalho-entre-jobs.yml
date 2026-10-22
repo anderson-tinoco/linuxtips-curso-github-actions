@@ -18,9 +18,9 @@ jobs:
     job_2:
         runs_on: ubuntu-latest
         steps:
-          - name: Acessa arquivo mensagem
-            run: ls -lha
+            - name: Acessa arquivo mensagem
+              run: ls -lha
 
-          - name: Acessa arquivo mensagem
-            run: cat mensagem.txt
+            - name: Acessa arquivo mensagem
+              run: cat mensagem.txt
 
