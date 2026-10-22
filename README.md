@@ -1,3 +1,3 @@
 # linuxtips-curso-github-actions
 
-## Estou editando este repositorio com o Github novamente!
+## Estou editando este repositorio com o Github Dev!
