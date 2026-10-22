@@ -1,4 +1,4 @@
-name: Vendo arquivos compartilhados entre Steps
+name: Vendo arquivos compartilhados entre Jobs
 
 on:
    push:
@@ -16,9 +16,9 @@ jobs:
               run: echo "Estou fazendo o curso de Github Actions da Linuxtips" > mensagem.txt
 
             -  uses: actions/upload-artifact@v4
-                with:
-                 name: strigus
-                 path: mensagem.txt
+               with:
+                name: strigus
+                path: mensagem.txt
 
     job_2:
         runs-on: ubuntu-latest
